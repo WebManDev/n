@@ -1,0 +1,76 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "districtNumber": 1
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-77.0369, 38.9072] // Longitude, Latitude for District 1
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "districtNumber": 2
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-77.045, 38.91] // Longitude, Latitude for District 2
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "districtNumber": 3
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-77.05, 38.915] // Longitude, Latitude for District 3
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "districtNumber": 4
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-77.06, 38.92] // Longitude, Latitude for District 4
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "districtNumber": 5
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-77.07, 38.925] // Longitude, Latitude for District 5
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "districtNumber": 6
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-77.08, 38.93] // Longitude, Latitude for District 6
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "districtNumber": 7
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-77.09, 38.935] // Longitude, Latitude for District 7
+        }
+      }
+    ]
+  }
+  
