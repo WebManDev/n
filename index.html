@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <h1 style="text-align: center; margin-top: 0;">Site Energy Use Intensity (SEUI) map for Montgomery County MD</h1>
+    <h1 style="text-align: center; margin-top: 0;">Site Energy Use Intensity (SEUI) map for Montgomery County MD. Higher SEUI buildings are less energy efficient and have larger black plumes.  Map is for Commercial Buildings covered by the Building Energy Performance Standards.  Data is from 2023.</h1>
     <title>Site Energy Use Intensity (SEUI) map for Montgomery County MD</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -107,22 +107,9 @@
         });
 
         // Add an editable popup in the center of the map
-        const editablePopup = L.popup({
-            closeOnClick: false,
-            autoClose: false,
-        })
-        .setLatLng(map.getCenter())
-        .setContent(
-            'Higher SEUI buildings are less energy efficient and have larger black plumes.  Map is for Commercial Buildings covered by the Building Energy Performance Standards.  Data is from 2023.'
-        )
-        .openOn(map);
+      
 
-        // Function to handle form submission
-        window.submitForm = function() {
-            const inputField = document.getElementById('inputField').value;
-            const textareaField = document.getElementById('textareaField').value;
-            alert('Input: ' + inputField + '\nDetails: ' + textareaField);
-        };
+  
     </script>
 </body>
 </html>
