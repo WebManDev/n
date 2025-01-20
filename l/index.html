@@ -94,7 +94,7 @@
             const e = row['Electricity (kWh)'] || 0;
 
 // Normalize Site EUI to a 0–1 range
-const normalizedE = Math.max(0, Math.min(1, (e - 0) / (10000000 - 0)));
+const normalizedE = Math.max(0, Math.min(1, (e - 0) / (30000000 - 0)));
 
 // Scale size between 20px and 80px
 const size = 20 + (normalizedE * 60); // Minimum size: 20px, Maximum size: 80px
